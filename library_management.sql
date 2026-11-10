@@ -34,3 +34,12 @@ show tables;
 desc members;
 desc books;
 desc issues;
+
+use librarydb;
+
+-- look at the tables first
+select * from members limit 20;
+select * from books limit 20;
+select * from issues limit 40;
+
+
